@@ -54,18 +54,20 @@
             // 
             // textProgress
             // 
-            this.textProgress.Location = new System.Drawing.Point(85, 135);
+            this.textProgress.Location = new System.Drawing.Point(50, 98);
             this.textProgress.Multiline = true;
             this.textProgress.Name = "textProgress";
+            this.textProgress.ReadOnly = true;
             this.textProgress.Size = new System.Drawing.Size(328, 214);
             this.textProgress.TabIndex = 2;
             // 
             // textBooks
             // 
-            this.textBooks.Location = new System.Drawing.Point(85, 368);
+            this.textBooks.Location = new System.Drawing.Point(50, 342);
             this.textBooks.Multiline = true;
             this.textBooks.Name = "textBooks";
-            this.textBooks.Size = new System.Drawing.Size(328, 88);
+            this.textBooks.ReadOnly = true;
+            this.textBooks.Size = new System.Drawing.Size(328, 114);
             this.textBooks.TabIndex = 3;
             // 
             // buttonAsk
