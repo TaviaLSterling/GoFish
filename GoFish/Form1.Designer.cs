@@ -30,6 +30,10 @@
         {
             this.textName = new System.Windows.Forms.TextBox();
             this.buttonStart = new System.Windows.Forms.Button();
+            this.textProgress = new System.Windows.Forms.TextBox();
+            this.textBooks = new System.Windows.Forms.TextBox();
+            this.buttonAsk = new System.Windows.Forms.Button();
+            this.listHand = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // textName
@@ -48,11 +52,50 @@
             this.buttonStart.Text = "Start The Game!";
             this.buttonStart.UseVisualStyleBackColor = true;
             // 
+            // textProgress
+            // 
+            this.textProgress.Location = new System.Drawing.Point(85, 135);
+            this.textProgress.Multiline = true;
+            this.textProgress.Name = "textProgress";
+            this.textProgress.Size = new System.Drawing.Size(328, 214);
+            this.textProgress.TabIndex = 2;
+            // 
+            // textBooks
+            // 
+            this.textBooks.Location = new System.Drawing.Point(85, 368);
+            this.textBooks.Multiline = true;
+            this.textBooks.Name = "textBooks";
+            this.textBooks.Size = new System.Drawing.Size(328, 88);
+            this.textBooks.TabIndex = 3;
+            // 
+            // buttonAsk
+            // 
+            this.buttonAsk.Enabled = false;
+            this.buttonAsk.Location = new System.Drawing.Point(459, 433);
+            this.buttonAsk.Name = "buttonAsk";
+            this.buttonAsk.Size = new System.Drawing.Size(143, 23);
+            this.buttonAsk.TabIndex = 4;
+            this.buttonAsk.Text = "Ask For Card";
+            this.buttonAsk.UseVisualStyleBackColor = true;
+            // 
+            // listHand
+            // 
+            this.listHand.FormattingEnabled = true;
+            this.listHand.ItemHeight = 16;
+            this.listHand.Location = new System.Drawing.Point(444, 98);
+            this.listHand.Name = "listHand";
+            this.listHand.Size = new System.Drawing.Size(168, 292);
+            this.listHand.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(659, 499);
+            this.Controls.Add(this.listHand);
+            this.Controls.Add(this.buttonAsk);
+            this.Controls.Add(this.textBooks);
+            this.Controls.Add(this.textProgress);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.textName);
             this.Name = "Form1";
@@ -66,6 +109,10 @@
 
         private System.Windows.Forms.TextBox textName;
         private System.Windows.Forms.Button buttonStart;
+        private System.Windows.Forms.TextBox textProgress;
+        private System.Windows.Forms.TextBox textBooks;
+        private System.Windows.Forms.Button buttonAsk;
+        private System.Windows.Forms.ListBox listHand;
     }
 }
 
